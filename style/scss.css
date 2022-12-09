@@ -314,67 +314,6 @@ ul.submenu {
   font-size: 20px;
 }
 
-.part-1--box .box-p1 img {
-  border-radius: 10px;
-  padding: 0px 40px;
-}
-.part-1--box .box-p1--text {
-  text-align: justify;
-}
-.part-1--box .box-p1--text h6 {
-  color: #222222;
-  font-size: 14px;
-  letter-spacing: 2.1px;
-}
-.part-1--box .box-p1--text h5 {
-  line-height: 50px;
-  color: #000000;
-  font-size: 16px;
-}
-.part-1--box .box-p1--text h1 {
-  font-weight: 700;
-  font-size: 30px;
-  color: #222222;
-}
-.part-1--box .box-p1--text p {
-  font-size: 16px;
-  color: #777777;
-}
-.part-1--box .box-p1--text---box {
-  transition: 1s;
-  padding-top: 20px;
-}
-.part-1--box .box-p1--text---box div {
-  transition: 1s;
-  background-color: #ede8e8;
-  display: flex;
-  align-items: center;
-  margin-right: 20px;
-  border-radius: 10px;
-  width: 40px;
-  height: 40px;
-}
-.part-1--box .box-p1--text---box div:hover {
-  background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
-}
-.part-1--box .box-p1--text---box div a {
-  padding: 8px 0px;
-  text-align: center;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-}
-.part-1--box .box-p1--text---contact a {
-  line-height: 20px;
-  padding-bottom: 16px;
-  display: inline-flex;
-  text-decoration: none;
-  color: #777777;
-}
-.part-1--box .box-p1--text---contact a box-icon {
-  margin-right: 20px;
-} */
-
 h1 {
   font-weight: 700;
   font-size: 30px;
@@ -515,46 +454,7 @@ p {
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
 }
-.part-2 {
-  background-color: #fff;
-}
-.part-2 .about {
-  margin-top: 50px;
-}
-.part-2 .about h1 {
-  font-weight: 700;
-  font-size: 36px;
-  color: #222222;
-}
-.part-2 .about p {
-  color: #777777;
-  text-align: justify;
-}
-.part-2 .about-box--item {
-  border: 1px solid #eeeeee;
-  border-radius: 5px;
-}
-.part-2 .about .progress-br {
-  margin-bottom: 20px;
-  border: 1px solid #eeeeee;
-  padding: 5px;
-  border-radius: 10px;
-}
-.part-2 .about .progress {
-  border: 1px #777777;
-  height: 10px;
-  border-radius: 10px;
-  background: #e8e8e8;
-}
-.part-2 .about .progress-bar {
-  transition: width 0.6s ease;
-  background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
-  transition: width 0.6s ease;
-  height: 10px;
-  border-radius: 5px;
-  vertical-align: middle;
-  align-self: center;
-}
+
 .mytabs_area {
   background-image: -moz-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
   background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
@@ -685,23 +585,21 @@ p {
   margin-bottom: 60px;
   position: relative;
 }
-
-
-.part-4 {
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  background-color: #f9f9ff;
-  padding-top: 50px;
-  padding-bottom: 50px;
+.cvon {
+  margin: 20px 0px 20px;
 }
-.part-4 h1 {
-  font-weight: 700;
+.cvon .primary {
+  background: linear-gradient(to right, #766dff 0%, #3356a9 48%, #766dff 100%);
+  border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+color: #fff;
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+padding: 10px;
+border: 2px none #b1154a;
 }
-.part-4 .feature-box {
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  border-radius: 10px;
-  background-color: #fff;
-}
-
 .part-5 {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   padding-top: 50px;
@@ -722,6 +620,8 @@ p {
   color: #766dff;
 }
 .part-5 .img-item img {
+  width: 381px;
+  height: 207px;
   transition: 0.4s;
   border-radius: 12px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
