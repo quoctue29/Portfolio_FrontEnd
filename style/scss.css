@@ -3,7 +3,89 @@
   padding: 0;
   box-sizing: border-box;
 }
+@media only screen and (max-width: 1400px) {
+  .personal h3 {
+    font-size: 32px !important;
+  }
+  .home-section .banner .banner-content .media .d-flex {
+    padding-right: 50px !important;
+   } 
+  .home-section .banner .banner-content .media .d-flex img {
+    width: 418px !important;
+    height: 440px !important;
+  }
+  .media{
+    margin-top: -240px !important;
 
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .home-section .banner .banner-content .media .d-flex {
+    padding-bottom: 110px !important;
+   } 
+  .media{
+    margin-top: 0px !important;
+
+  }
+  .personal h3 {
+    font-size: 32px !important;
+  }
+  .home-section .banner .banner-content .media .d-flex img {
+    width: 468px !important;
+    height: 490px !important;
+  }
+  .home-section .banner {
+    margin-top: -65px !important;
+
+  }
+  
+}
+@media only screen and (max-width: 992px) {
+  .home-section .banner .banner-content .media .d-flex img {
+    width: 268px !important;
+    height: 290px !important;
+  }
+  .rep .basic {
+    margin-left: -320px !important;
+  }
+  .rep .personal-social{
+    margin-top: -152px !important;
+
+  }
+  .home-section .banner {
+    margin-top: -137px !important;
+    
+  }
+
+}
+@media only screen and (max-width: 768px) {
+  .personal h3 {
+    font-size: 26px !important;
+  }
+  .home-section .banner .banner-content .media .d-flex img {
+  width: 168px !important;
+  height: 190px !important;
+  }
+  .home-section .banner .banner-content .media .d-flex {
+    padding-right: 30px !important;
+   } 
+   .rep .basic {
+    margin-left: -200px !important;
+  }
+  .rep .personal-social{
+    margin-top: -152px !important;
+
+  }
+
+}
+@media only screen and (max-width: 575px) {
+ 
+}
+
+.part-5 .img-item img{
+  width: 100%;
+  
+}
 #top-main-navigation {
   background: linear-gradient(-50deg, #addc13, #0c85ff, #ff2525, #17a2b8);
   background-size: 320% 200%;
@@ -339,7 +421,7 @@ p {
   align-items: flex-start;
  }
  .home-section .banner .banner-content .media .d-flex {
-  padding-right: 125px;
+  padding-right: 80px;
  } 
  .home-section .banner .banner-content .media .d-flex img{
   width: 668px;
